@@ -119,9 +119,11 @@
 
 这样可以添加一个不标注的参考文献引用\nocite{9787508342894}
 
-多引用另一情况\cite{Stone_1998,9780124467422,huagongrenzheng2014,bamboosilk}
+多引用另一情况\cite{Stone_1998,9780124467422,bamboosilk}
 
 这样可以添加所有bib文件中的参考文献\nocite{*}
+
+参考文献使用了thebibliography，没有用原模板的bib生成，这样做方便直接复制黏贴对应格式的引用。但是这样会导致bibtex.exe的一些错误或者警告提示，无视就好(因为懒得改了，如果您有兴趣，可以更新扔github上)。
 
 \subsection{交叉引用}\label{subsec:crossref}
 本模板已经重写了hyperref宏包的\verb|\autoref|命令，方便引用章节、公式和图表。
@@ -255,6 +257,8 @@ $$
 	\item 第三项
 \end{itemize}
 
+
+
 \begin{thankpage}
 	感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师感谢老师
 
@@ -263,7 +267,18 @@ $$
 
 %生成参考文献
 %使用方法：\bibliography{参考文件1文件名, 参考文献2文件名, ...}
-\bibliography{Bibs/mybib}
+%\bibliography{Bibs/mybib}
+
+%使用thebibliography原样输出
+\begin{thebibliography}{1}%使用1参数左对齐
+    \addcontentsline{toc}{chapter}{参考文献}%将“参考文献加入目录中”
+    
+	\bibitem{Stone_1998}Arandjelović R, Zisserman A, Three things everyone should know to improve object retrieval, Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on, IEEE, 2012: 2911-2918.  
+	\bibitem{9780124467422}Philbin J, Chum O, Isard M, et al. Lost in quantization: Improving particular object retrieval in large scale image databases, Computer Vision and Pattern Recognition, 2008. CVPR 2008, IEEE Conference on, IEEE, 2008: 1-8.  	
+	\bibitem{huagongrenzheng2014}王静康,张凤宝,夏淑倩,et al.论化工本科专业国际认证与国内认证的“实质性”[J].高等工程教育研究.2014,5:1-4
+
+	\bibitem{bamboosilk}陈剑.上博简《民之父母》“而得既塞於四海矣”句解释[EB/OL].简帛研究网站.http://www.bamboosilk.org/Wssf/2003/chenjian03.htm
+\end{thebibliography}
 
 \begin{appendices}
 	\chapter{第一个附录}
