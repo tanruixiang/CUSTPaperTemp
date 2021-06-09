@@ -850,7 +850,7 @@
 		pdfinfo={
 			Title={\@cntitle},
 			Author={\@author},
-			Subject={长春理工大学本科生毕业论文}
+			Subject={长春理工大学本科生毕业设计}
 		}
 	}
 }
