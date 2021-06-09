@@ -591,21 +591,21 @@
 		number = {\arabic{section}},
 		name = {\arabic{chapter}.},
 		indent={2em},
-		format={\raggedright \songti \bfseries \zihao{4}},% 二级标题, 宋体,四号,加粗,缩进2字符
+		format={ \songti \bfseries \zihao{4}},% 二级标题, 宋体,四号,加粗,缩进2字符
 	},
 	subsection={
 		indent={2em}, % 三级标题, 类似二级标题 1.1.1, 1.1.2, 2.1.1 ....
 		numbering = true,
 		number = {\arabic{subsection}},
 		name = {\thesection.},
-		format={\raggedright \songti \bfseries \zihao{-4}}, % 三级标题, 宋体,小四,加粗,缩进2字符
+		format={\songti \bfseries \zihao{-4}}, % 三级标题, 宋体,小四,加粗,缩进2字符
 	},
 	subsubsection={
 		indent={2em}, % 四级标题, 类似四级标题 1.1.1, 1.1.2, 2.1.1 ....
 		numbering = true,
 		number = {\arabic{subsubsection}},
 		name = {\thesubsection.},
-		format={\raggedright \songti \bfseries \zihao{-4}}, % 四级标题, 宋体,小四,加粗,缩进2字符
+		format={\songti \bfseries \zihao{-4}}, % 四级标题, 宋体,小四,加粗,缩进2字符
 	},
 }
 % ============= end 各级标题样式 =============
