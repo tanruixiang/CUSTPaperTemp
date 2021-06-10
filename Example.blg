@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Example.aux
+The style file: gbt7714-2015.bst
+I found no \bibdata command---while reading file Example.aux
+Warning--I didn't find a database entry for "Stone_1998"
+Warning--I didn't find a database entry for "9780124467422"
+Warning--I didn't find a database entry for "huagongrenzheng2014"
+Warning--I didn't find a database entry for "9787508342894"
+Warning--I didn't find a database entry for "bamboosilk"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 0 entries,
+            3453 wiz_defined-function locations,
+            773 strings with 5731 characters,
+and the built_in function-call counts, 42 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 17
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 9
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 8
+(There was 1 error message)
