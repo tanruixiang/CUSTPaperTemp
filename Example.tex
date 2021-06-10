@@ -42,6 +42,7 @@
 \documentclass{CustGraduPaper}
 \usepackage{lipsum}
 \usepackage{bm,tikz}
+\usepackage{listings}
 \usetikzlibrary{shapes,arrows,shadows,calc}
 
 \begin{document}
@@ -198,6 +199,11 @@ $$
 \[\frac{123}{2}\]
 
 \chapter{用图和表的示例}
+\chapter{代码块}
+\section{代码块原样输出}
+\begin{lstlisting}
+print('hello world')
+\end{lstlisting}
 \section{图的使用}
 % \XeLaTeX 环境下可以使用EPS、PDF、PNG、JPEG、BMP格式的图片，当然也可以用绘图包直接在\LaTeX 中绘制图形，推荐使用宏包tikz。图的环境是figure，但figure环境使用复杂且不自带标题，因此本模板定义了一个通用版本的generalfig，该环境会将figure内的图片居中并设置标签与引用名，同时会让图片位置设置为所有可行位置（htbp，即此处、页顶、页底、独立一页），此选项可以作为可选参数设置。
 
